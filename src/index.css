@@ -1,0 +1,28 @@
+html{
+    min-height:100%;/* make sure it is at least as tall as the viewport */
+    position:relative;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #000000;
+  height: 100%;
+}
+
+.screen-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+}
+
+.pacman-container {
+    /*border: 1px solid #DEDEDE;*/
+    width: 120px;
+    height: 120px;
+    margin: 50px auto 0 auto;
+}
